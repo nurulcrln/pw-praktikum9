@@ -2,7 +2,6 @@
     require 'connect.php';
     require 'aksi.php';
     if( isset($_POST["submit"])){
-        //jika sudah ditekan dijalankan function tambah
         if(tambah($_POST) > 0) {
             echo "berhasil";
         } else {
